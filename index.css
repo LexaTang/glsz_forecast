@@ -1,0 +1,75 @@
+﻿#logo {
+    background-color: #CCC;
+    float: left;
+    height: 80px;
+    width: 300px;
+  }
+  #top {
+    width: 80%;
+    margin: 0 auto;
+  }
+  ul.nav {
+    list-style: none; /* 这将删除列表标记 */
+    /*border-top: 1px solid #666; /* 这将为链接创建上边框 – 使用下边框将所有其它项放置在 LI 中 */
+    margin-bottom: 15px; /* 这将在下面内容的导航之间创建间距 */
+  }
+  ul.nav li {
+    border-bottom: 1px solid #666; /* 这将创建按钮间隔 */
+    width: 25%;
+    float:left;
+    text-align: center;
+  }
+  ul.nav a, ul.nav a:visited { /* 对这些选择器进行分组可确保链接即使在访问之后也能保持其按钮外观 */
+    padding: 5px 5px 5px 15px;
+    display: block; /* 这将为链接赋予块属性，使其填满包含它的整个 LI。这样，整个区域都可以响应鼠标单击操作。 */
+    text-decoration: none;
+    background-color: #8090AB;
+    color: #000;
+    text-align: center;
+  }
+  ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* 这将更改鼠标和键盘导航的背景和文本颜色 */
+    background-color: #6F7D94;
+    color: #FFF;
+    text-align: center;
+  }
+  div.sidebar1 {
+    width: 80%;
+    margin:0 auto;
+  }
+  ul.nav2 {
+    list-style: none; /* 这将删除列表标记 */
+    /*border-top: 1px solid #666; /* 这将为链接创建上边框 – 使用下边框将所有其它项放置在 LI 中 */
+    margin-bottom: 15px; /* 这将在下面内容的导航之间创建间距 */
+    width: 100%;
+  }
+  ul.nav2 li {
+    border-bottom: 1px solid #666; /* 这将创建按钮间隔 */
+    width: 25%;
+    float: left;
+    text-align: center;
+    font-size: 36px;
+  }
+  ul.nav2 a, ul.nav2 a:visited { /* 对这些选择器进行分组可确保链接即使在访问之后也能保持其按钮外观 */
+    padding: 5px 5px 5px 15px;
+    display: block; /* 这将为链接赋予块属性，使其填满包含它的整个 LI。这样，整个区域都可以响应鼠标单击操作。 */
+    text-decoration: none;
+    background-color: #999999;
+    color: #000;
+    text-align: center;
+  }
+  ul.nav2 a:hover, ul.nav2 a:active, ul.nav2 a:focus { /* 这将更改鼠标和键盘导航的背景和文本颜色 */
+    background-color: #CCCCCC;
+    color: #FFF;
+    text-align: center;
+  }
+  div.sidebar2 {
+    width: 100%;
+    margin:0 auto;
+  }
+  #data{
+    border-collapse:collapse;
+    border:none;
+  }
+  #data td{
+    border:solid #007700 1px;
+  }
